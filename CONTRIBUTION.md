@@ -1,12 +1,12 @@
 | Task | Team Member | Contribution Details |
 |------------------------------|------------------|---------------------------------------------------|
 | Create GitHub Repository | Lamis Al Busaidi | Set up repository, added initial files |
-| Creat Home Page | Name of Member 2 | Designed structure, added content, navigation, use CSS for styling, add images |
-| Creat About Us Page | Name of Member 3 | Developed About Us page, added email link, add images if applicable, add a table with all members info |
-| Creat Contact us page | Name of Member 3 | Developed contact Us page, added email link, add a request form using diverse control types |
-| Add one time services page | Name of Member 3 | add pictures, add a table with prices and brief discription of the service, add a service request form |
-| Add one training programs page | Name of Member 3 | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
-| Add one AI chatbot page | Name of Member 3 | add all info to our facility, add a text field, make it chat-like display |
+| Creat Home Page | Lamis Al Busaidi | Designed structure, added content, navigation, use CSS for styling, add images |
+| Creat About Us Page | Name of Member | Developed About Us page, added email link, add images if applicable, add a table with all members info |
+| Creat Contact us page | Name of Member | Developed contact Us page, added email link, add a request form using diverse control types |
+| Add one time services page | Name of Member | add pictures, add a table with prices and brief discription of the service, add a service request form |
+| Add one training programs page | Name of Member | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
+| Add one AI chatbot page | Lamis Al Busidi | add all info to our facility, add a text field, make it chat-like display |
 
 
 
