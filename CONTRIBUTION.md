@@ -24,12 +24,12 @@
 | Publishing | Host the website on a free web hosting site and get a hyperlink for it. |
 
 
-| **Report Section**            | **Details**                                                                                   |
-|-------------------------------|-----------------------------------------------------------------------------------------------|
-| **Structure Overview**        | Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
-| **Screenshots**               | Include screenshots of each page with descriptions.                                          |
-| **CSS & Bootstrap Usage**     | Identify where each type of CSS style (inline, internal, external) and Bootstrap layout is applied. |
-| **Update Report**             | Ensure that the title page and table of contents are updated to reflect the new content.     |
-| **Include Links**             | Add hyperlinks to your hosted website and GitHub project for easy access.                    |
-| **Contribution Table**        | Summarize each team member’s contributions in a table.                                       |
+| **Report Section**            | Team member                   |**Details**                                                 |
+|-------------------------------|------------------------------|----------------------------------------------------------------|
+| **Structure Overview**        | member |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
+| **Screenshots**               | member |Include screenshots of each page with descriptions.                                          |
+| **CSS & Bootstrap Usage**     | member |Identify where each type of CSS style (inline, internal, external) and Bootstrap layout is applied. |
+| **Update Report**             | member |Ensure that the title page and table of contents are updated to reflect the new content.     |
+| **Include Links**             | member |Add hyperlinks to your hosted website and GitHub project for easy access.                    |
+| **Contribution Table**        | Lamis Al Busaidi |Summarize each team member’s contributions in a table.                                       |
 
