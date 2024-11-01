@@ -27,7 +27,7 @@
 | **Report Section**            | Team member                   |**Details**                                                 |
 |-------------------------------|------------------------------|----------------------------------------------------------------|
 | **Structure Overview**        | member |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
-| **Screenshots**               | member |Include screenshots of each page with descriptions.                                          |
+| **Screenshots**               | Lamis AL Busaidi |Include screenshots of each page with descriptions.                                          |
 | **CSS & Bootstrap Usage**     | member |Identify where each type of CSS style (inline, internal, external) and Bootstrap layout is applied. |
 | **Update Report**             | member |Ensure that the title page and table of contents are updated to reflect the new content.     |
 | **Include Links**             | member |Add hyperlinks to your hosted website and GitHub project for easy access.                    |
