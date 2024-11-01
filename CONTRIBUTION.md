@@ -1,6 +1,6 @@
 | Task | Team Member | Contribution Details |
 |------------------------------|------------------|---------------------------------------------------|
-| Create GitHub Repository | Lamis Al Busaidi | Set up repository, added initial files |
+| Create GitHub Repository | Lamis Al Busaidi | Set up repository |
 | Creat Home Page | Lamis Al Busaidi | Designed structure, added content, navigation, use CSS for styling, add images |
 | Creat About Us Page | Name of Member | Developed About Us page, added email link, add images if applicable, add a table with all members info |
 | Creat Contact us page | Name of Member | Developed contact Us page, added email link, add a request form using diverse control types |
