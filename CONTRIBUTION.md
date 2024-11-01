@@ -2,8 +2,8 @@
 |------------------------------|------------------|---------------------------------------------------|
 | Create GitHub Repository | Lamis Al Busaidi | Set up repository |
 | Creat Home Page | Lamis Al Busaidi | Designed structure, added content, navigation, use CSS for styling, add images |
-| Creat About Us Page | Name of Member | Developed About Us page, added email link, add images if applicable, add a table with all members info |
-| Creat Contact us page | Name of Member | Developed contact Us page, added email link, add a request form using diverse control types |
+| Creat About Us Page | Firdous Al Harthy | Developed About Us page, added email link, add images if applicable, add a table with all members info |
+| Creat Contact us page | Firdous Al Harthy | Developed contact Us page, added email link, add a request form using diverse control types |
 | Add one time services page | Name of Member | add pictures, add a table with prices and brief discription of the service, add a service request form |
 | Add one training programs page | Name of Member | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
 | Add one AI chatbot page | Lamis Al Busidi | add all info to our facility, add a text field, make it chat-like display |
@@ -29,7 +29,7 @@
 | **Structure Overview**        | member |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
 | **Screenshots**               | Lamis AL Busaidi |Include screenshots of each page with descriptions.                                          |
 | **CSS & Bootstrap Usage**     | member |Identify where each type of CSS style (inline, internal, external) and Bootstrap layout is applied. |
-| **Update Report**             | member |Ensure that the title page and table of contents are updated to reflect the new content.     |
+| **Update Report**             | Firdous Al Harthy |Ensure that the title page and table of contents are updated to reflect the new content.     |
 | **Include Links**             | member |Add hyperlinks to your hosted website and GitHub project for easy access.                    |
 | **Contribution Table**        | Lamis Al Busaidi |Summarize each team member’s contributions in a table.                                       |
 
