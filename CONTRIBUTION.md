@@ -4,8 +4,8 @@
 | Create Home Page | Lamis Al Busaidi | Designed structure, added content, navigation, use CSS for styling, add images |
 | Create About Us Page | Jenan Alaamri | Developed About Us page, added email link, add images if applicable, add a table with all members info |
 | Create Contact us page | Firdous Al Harthy | Developed contact Us page, added email link, add a request form using diverse control types |
-| Add one time services page | Jenan Alaamri | add pictures, add a table with prices and brief discription of the service, add a service request form |
-| Add one training programs page | Name of Member | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
+| Add one time services page |  | add pictures, add a table with prices and brief discription of the service, add a service request form |
+| Add one training programs page | Jenan Alaamri | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
 | Add one AI chatbot page | Lamis Al Busidi | add all info to our facility, add a text field, make it chat-like display |
 
 
