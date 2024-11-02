@@ -5,7 +5,9 @@
 | Create About Us Page | Jenan Alaamri | Developed About Us page, added email link, add images if applicable, add a table with all members info |
 | Create Contact us page | Firdous Al Harthy | Developed contact Us page, added email link, add a request form using diverse control types |
 | Add one time services page |  | add pictures, add a table with prices and brief discription of the service, add a service request form |
-| Add one training programs page | Jenan Alaamri | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
+| Personal profile |  | add a profile pic,name,medical info, and subscribtions |
+| add subscription plans |  | add pictures, maybe a table with plans and info and price. |
+| Add training programs page | Jenan Alaamri | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
 | Add one AI chatbot page | Lamis Al Busidi | add all info to our facility, add a text field, make it chat-like display |
 
 
