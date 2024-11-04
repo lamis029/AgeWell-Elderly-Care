@@ -4,9 +4,9 @@
 | Create Home Page | Lamis Al Busaidi | Designed structure, added content, navigation, use CSS for styling, add images |
 | Create About Us Page | Jenan Alaamri | Developed About Us page, added email link, add images if applicable, add a table with all members info |
 | Create Contact us page | Firdous Al Harthy | Developed contact Us page, added email link, add a request form using diverse control types |
-| Add one time services page |  | add pictures, add a table with prices and brief discription of the service, add a service request form |
-| Personal profile |  | add a profile pic,name,medical info, and subscribtions |
-| add subscription plans |  | add pictures, maybe a table with plans and info and price. |
+| Add one time services page | Asma Ali | add pictures, add a table with prices and brief discription of the service, add a service request form |
+| Personal profile | Asma Ali | add a profile pic,name,medical info, and subscribtions |
+| add subscription plans | Asma Ali | add pictures, maybe a table with plans and info and price. |
 | Add training programs page | Jenan Alaamri | add pictures, add a table with prices and brief discription of the programs, add a training program request form |
 | Add one AI chatbot page | Lamis Al Busidi | add all info to our facility, add a text field, make it chat-like display |
 
@@ -28,7 +28,7 @@
 
 | **Report Section**            | Team member                   |**Details**                                               |
 |-------------------------------|------------------------------|-----------------------------------------------------------|
-| **Structure Overview**        | member |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
+| **Structure Overview**        | Asma Ali |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
 | **Screenshots**               | Firdous Al Harthy |Include screenshots of each page with descriptions.                                          |
 | **CSS & Bootstrap Usage**     | Jenan Alaamri |Identify where each type of CSS style (inline, internal, external) and Bootstrap layout is applied. |
 | **Update Report**             | Firdous Al Harthy |Ensure that the title page and table of contents are updated to reflect the new content.     |
