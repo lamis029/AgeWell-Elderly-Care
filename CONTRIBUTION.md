@@ -28,7 +28,7 @@
 
 | **Report Section**            | Team member                   |**Details**                                               |
 |-------------------------------|------------------------------|-----------------------------------------------------------|
-| **Structure Overview**        |  |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
+| **Structure Overview**        | Asma Ali |Provide a brief overview of the website structure and update any changes in the sitemap from Part 1. |
 | **Screenshots**               | Firdous Al Harthy |Include screenshots of each page with descriptions.                                          |
 | **CSS & Bootstrap Usage**     | Jenan Alaamri |Identify where each type of CSS style (inline, internal, external) and Bootstrap layout is applied. |
 | **Update Report**             | Firdous Al Harthy |Ensure that the title page and table of contents are updated to reflect the new content.     |
