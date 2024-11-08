@@ -1,0 +1,35 @@
+
+footer {
+    background-color: #d9d9d9; /* Set background color */
+    color: #181a16; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 1rem 0; /* Add vertical padding (py-3 equivalent) */
+}
+
+
+footer p, footer a {
+    color: #181a16;
+}
+
+
+footer p {
+    margin: 5px 0;
+}
+
+/*for navigation bar*/
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#menu {
+    background-color: #60a6cd;
+    
+}
+#menu2 {
+    
+    display : flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
