@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home Page - AgeWell Aid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .srv-table{
+            width: 100%;
+            border-collapse: collapse;
+            }
+        .srv-cellsp{
+            padding: 10px;
+            width: 35%;
+            
+        }
+        .srv-cell{
+            padding: 10px;
+            
+        }
+    
+        .srv-title{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            font-size:25px ;
+            font-weight: bold;
+            color: #1a4a63;
+        }
+    
+        .srv-descrip{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            font-size: 15px ;
+            color: #97babf;
+        }
+        .srv-price{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            font-size: 15px ;
+            color: #1a4a63;
+        }
+    
+        .icon-img {
+            object-fit: cover;
+        }
+    
+        .fixed-size {
+            width: 200px;  
+            height: 200px; 
+        }
+
+        .form-label {
+        font-weight: bold;
+        color: #1a496b;
+      }
+
+      .form-control {
+        border-radius: 0.375rem;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .submit-btn {
+        background-color: #1a496b;
+        color: #fff;
+        width: 100%;
+        border-radius: 0.375rem;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .submit-btn:hover {
+        background-color: #14507a;
+      }
+
+      body{background-color: #f1f2f0;}
+
+      h4{text-align: center;
+        color: #14507a;
+        margin-bottom: 20px;
+      }
+    </style>
+    
+    <body>
+        <header id="menu">
+            <div class="container-fluid" style="display: flex; align-items: center; justify-content: space-between;">
+                <div class="header-left">
+                    <img src="Logo.png" alt="logo" class="logo" />
+                    <p class="logo-text">AgeWell Aid</p>
+                </div>
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="subscription.html">Subscription Plans</a></li>
+                        <li class="nav-item"><a class="nav-link" href="training.html">Training Programs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="oneService.html">One Time Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="profile.html">Personal Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="chatbot.html">AI Chatbot</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner-section">
+            <div class="banner-content">
+                <h2>Subscription Plans</h2>
+                
+            </div>
+        </div>
+
+
+
+
+    <div class="container mt-4" >
+        <table class="srv-table center-cntent" >
+            <tr>
+                <td class="srv-cell" >
+                    <img src="Check-up.jpg" alt="General Medical Consultations" class="icon-img fixed-size"> 
+                </td>
+
+                <td  class= "srv-cellsp" >    
+                    <div class="srv-title">Full Routine Check-up
+                    </div>
+                    <div class="srv-descrip">
+                        Aimed at monitoring individuals at risk of developing conditions such as diabetes, hypertension, or heart diseases. These packages include regular check-ups and tests to monitor the patient's health status
+                    </div>
+                    <div class="srv-price">
+                        100 OR
+                    </div>
+                </td>
+
+                <td class="srv-cell">
+                    <img src="Clinical Patient .jpg" alt="Medical Tests" class="icon-img fixed-size">
+                </td>
+
+                    <td class="srv-cell">
+                    <div class="srv-title">Clinical Patient Care Packages
+                    </div>
+                    <div class="srv-descrip">
+                        Regular Medical Visits, Nursing Care, Rehabilitation, Medication Therapy, Psychological Support Services, Nutritional Consultations, Home Testing
+                    </div>
+                    <div class="srv-price">
+                        200 OR
+                    </div>
+                </td>
+            </tr>
+            
+            
+        </table>
+    </div>
+
+    <div class="row justify-content-center" style="background-color: #f1f2f0; margin-top: 35px; margin-bottom: 35px;" >
+        <div class="col-md-6 form-container">
+          <form action="https://formspree.io/f/{your_form_id}" method="POST" style="margin-top: 35px; margin-bottom: 35px;">
+            <h4>Compassionate Care Starts Here <br/> Join Our Elderly Care Community!</h4>
+            <div class="mb-3">
+                <label for="Full Name" class="form-label"> Full Name:</label>
+                <input type="text" class="form-control" id="Full name" name="full name"
+                placeholder="Please enter your full name"
+                required/>
+            </div>
+            <div class="mb-3">
+                <label for="Age" class="form-label"> Age:</label>
+                <input type="number" class="form-control" id="age" name="age"
+                placeholder="Please enter your Age"
+                required/>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Gender:</label>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    id="Male"
+                    name="gender"
+                    value="Male"
+                    required
+                  />
+                  <label class="form-check-label" for="Male"
+                    >Male</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    id="Female"
+                    name="gender"
+                    value="Female"
+                  />
+                  <label class="form-check-label" for="Female">Female</label>
+                </div>
+            
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Plan:</label>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    id="Full Routine Check-up"
+                    name="plan"
+                    value="Full Routine Check-up"
+                    required
+                  />
+                  <label class="form-check-label" for="Full Routine Check-up"
+                    >Full Routine Check-up</label
+                  >
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    id="Clinical Patient Care Packages"
+                    name="plan"
+                    value="Clinical Patient Care Packages"
+                  />
+                  <label class="form-check-label" for="Clinical Patient Care Packages">Clinical Patient Care Packages</label>
+                </div>
+            
+            
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </form>
+        </div>
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="container text-center">
+            <p>&copy; 2024 AgeWell Aid. All Rights Reserved.</p>
+            <p>Contact us: | <a href="https://x.com/agewell_om" class="text-grey">Twitter</a> | <a href="https://www.instagram.com/agewell_om/" class="text-grey">Instagram</a> | <a href="https://api.whatsapp.com/send/?phone=96898797889&text&type=phone_number&app_absent=0" class="text-grey">WhatsApp</a></p>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
