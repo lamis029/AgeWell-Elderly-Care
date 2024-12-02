@@ -26,6 +26,58 @@
         }
 
         body{background-color: #f1f2f0;}
+
+        #banner-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #c7c4c4;
+            color: #fff;
+        }
+
+        #text-banner {
+            display: inline-block;
+            padding: 10px;
+            animation: moveBanner 16s linear infinite;
+        }
+
+        @keyframes moveBanner {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        .gallery{
+                position: relative;
+                width: 100%;
+                height: 400px;
+                overflow: hidden;
+                align-items: center;
+        }
+        
+        .gallery-image {
+                width: 500px;
+                height: 400px;
+                position: absolute;
+                margin-left: 30%;
+                margin-top: 3%;
+                
+                opacity: 0; /* Initially hide all images */
+                transition: opacity 1s ease-in-out;
+                
+        }
+
+        h3{
+            text-align: center;
+            text-decoration: underline;
+            color: #0a467b;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
     </style>
 </head>
 <body>
@@ -37,7 +89,7 @@
             </div>
             <nav class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="subscription.html">Subscription Plans</a></li>
                     <li class="nav-item"><a class="nav-link" href="training.html">Training Programs</a></li>
@@ -45,6 +97,9 @@
                     <li class="nav-item"><a class="nav-link" href="profile.html">Personal Profile</a></li>
                     <li class="nav-item"><a class="nav-link" href="chatbot.html">AI Chatbot</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="questionnaire.html">Questionnaire</a></li>
+                    <li class="nav-item"><a class="nav-link" href="funpage.html">Funpage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Calculations</a></li>
                 </ul>
             </nav>
         </div>
@@ -106,12 +161,65 @@
         </div>
     </div>
 </section>
+<h3>We're Here For You !</h3>
+<div class="gallery">
+    <img src="gal1.jpeg" alt="Image1" class="gallery-image">
+    <img src="gal2.jpeg" alt="Image2" class="gallery-image">
+    <img src="gal3.jpeg" alt="Image3" class="gallery-image">
+</div>
+<br><br>
+<script>
+    //select all images with class 'gallery-image' put it in list
+    const images = document.querySelectorAll('.gallery-image');
+    //intialize the index of images to the first image
+    let currentImageIndex = 0;
 
+    //define function to rotate images
+    function rotateImage() {
+        //hide current image by setting opacity to 0
+        images[currentImageIndex].style.opacity = 0; 
+        //increment the image index & come back to start if it's in the end
+        currentImageIndex = (currentImageIndex + 1) % images.length; 
+        //show current image by setting opacity to 1
+        images[currentImageIndex].style.opacity = 1; 
+    }
+    //ensure the first image is visible by setting its opacity to 1
+    images[currentImageIndex].style.opacity = 1; 
+    //set timer to call the rotateImage function every 4000 ms (4 seconds)
+    setInterval(rotateImage, 4000); 
+</script>
+
+<div id="banner-container">
+    <div id="text-banner">Welcome to the AgeWell Aid Website! Today is <span id="current_date" ></span>, and the time is 
+        <span id="current_time" ></span></div>
+</div>
+
+<script>
+    //html element where the current date will be displayed
+    const currentDateElement = document.getElementById('current_date');
+    //html element where the current time will be displayed
+    const currentTimeElement = document.getElementById('current_time');
+  
+    //update date and time every second
+    setInterval(() => {
+      //create new Date object to get current date & time  
+      const now = new Date();
+      //format to make it string as (MM/DD/YYYY)
+      const currentDate = now.toLocaleDateString();
+      ////format to make it string as (HH:MM:SS AM/PM)
+      const currentTime = now.toLocaleTimeString();
+      
+      //update content of elements
+      currentDateElement.textContent = currentDate;
+      currentTimeElement.textContent = currentTime;
+    }, 1000);
+
+</script>
 
 <footer>
     <div class="container text-center">
         <p>&copy; 2024 AgeWell Aid. All Rights Reserved.</p>
-        <p>Contact us: | <a href="https://x.com/agewell_om" class="text-grey">Twitter</a> | <a href="https://www.instagram.com/agewell_om/" class="text-grey">Instagram</a> | <a href="https://api.whatsapp.com/send/?phone=96898797889&text&type=phone_number&app_absent=0" class="text-grey">WhatsApp</a></p>
+        <p style="margin-bottom: 30px;">Contact us: | <a href="#" class="text-grey">Twitter</a> | <a href="#" class="text-grey">Instagram</a> | <a href="#" class="text-grey">WhatsApp</a></p>
     </div>
 </footer>
 
