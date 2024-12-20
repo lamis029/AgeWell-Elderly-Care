@@ -7,35 +7,64 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/dist/angular/styles-5INURTSO.css">
-    <script src="/dist/angular/main-BWTTEBAC.js" defer></script>
-    <script src="/dist/angular/polyfills-FFHMD2TL.js"></script>
+    <link rel="stylesheet" href="/dist/angular/styles-5INURTSO.css" />
   </head>
   <body>
     <!-- Header Section with Navigation -->
     <header id="menu">
-      <div class="container-fluid" style="display: flex; align-items: center; justify-content: space-between;">
-          <div class="header-left">
-              <img src="Logo.png" alt="logo" class="logo" />
-              <p class="logo-text">AgeWell Aid</p>
-          </div>
-          <nav class="navbar navbar-expand-sm">
-              <ul class="navbar-nav">
-                  <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
-                  <li class="nav-item"><a class="nav-link" href="subscription.html">Subscription Plans</a></li>
-                  <li class="nav-item"><a class="nav-link" href="training.html">Training Programs</a></li>
-                  <li class="nav-item"><a class="nav-link" href="oneService.html">One Time Services</a></li>
-                  <li class="nav-item"><a class="nav-link" href="profile.html">Personal Profile</a></li>
-                  <li class="nav-item"><a class="nav-link" href="chatbot.html">AI Chatbot</a></li>
-                  <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
-                  <li class="nav-item"><a class="nav-link" href="questionnaire.html">Questionnaire</a></li>
-                  <li class="nav-item"><a class="nav-link" href="funpage.html">Funpage</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Calculations</a></li>
-              </ul>
-          </nav>
+      <div
+        class="container-fluid"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        "
+      >
+        <div class="header-left">
+          <img src="Logo.png" alt="logo" class="logo" />
+          <p class="logo-text">AgeWell Aid</p>
+        </div>
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subscription.html"
+                >Subscription Plans</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="training.html">Training Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="oneService.html">One Time Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Personal Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="chatbot.html">AI Chatbot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="questionnaire.html">Questionnaire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="funpage.html">Funpage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-  </header>
+    </header>
 
     <!-- Banner Section -->
     <div class="banner-section">
@@ -52,7 +81,12 @@
       </p>
 
       <!-- Questionnaire Form -->
-      <form id="questionnaireForm" class="p-4 border rounded shadow-sm">
+      <form
+        id="questionnaireForm"
+        class="p-4 border rounded shadow-sm"
+        action="questionnaire_process.php"
+        method="POST"
+      >
         <h4 class="mb-3">Personal Information</h4>
         <div class="row mb-3">
           <div class="col-md-6">
@@ -60,6 +94,7 @@
             <input
               type="text"
               id="name"
+              name="name"
               class="form-control"
               placeholder="Enter your full name"
               required
@@ -70,6 +105,7 @@
             <input
               type="email"
               id="email"
+              name="email"
               class="form-control"
               placeholder="Enter your email"
               required
@@ -82,7 +118,7 @@
           <label for="rating" class="form-label"
             >How would you rate our services?</label
           >
-          <select id="rating" class="form-control" required>
+          <select id="rating" name="rating" class="form-control" required>
             <option value="">Select an option</option>
             <option value="Excellent">Excellent</option>
             <option value="Good">Good</option>
@@ -95,6 +131,7 @@
           <label for="comments" class="form-label">Additional Comments</label>
           <textarea
             id="comments"
+            name="comments"
             class="form-control"
             rows="4"
             placeholder="Share your thoughts..."
@@ -129,28 +166,28 @@
           <input
             type="checkbox"
             id="service1"
-            name="services"
+            name="services[]"
             value="General Medical Consultations"
           />
           <label for="service1">General Medical Consultations</label><br />
           <input
             type="checkbox"
             id="service2"
-            name="services"
+            name="services[]"
             value="Vaccinations"
           />
           <label for="service2">Vaccinations</label><br />
           <input
             type="checkbox"
             id="service3"
-            name="services"
+            name="services[]"
             value="Routine Check-ups"
           />
           <label for="service3">Routine Check-ups</label><br />
           <input
             type="checkbox"
             id="service4"
-            name="services"
+            name="services[]"
             value="Temporary Nursing Care"
           />
           <label for="service4">Temporary Nursing Care</label>
@@ -160,7 +197,7 @@
           Submit Feedback
         </button>
       </form>
-    </div>
+    </div><br><br>
 
     <!-- Footer -->
     <footer>
@@ -173,87 +210,5 @@
         </p>
       </div>
     </footer>
-    <div id="angular-app"></div>
-    <!-- JavaScript -->
-    <script>
-      /**
-       * Adds an event listener to the questionnaire form for submission.
-       */
-      /**
-       * Adds an event listener to the questionnaire form for submission.
-       */
-      /**
-       * Adds an event listener to the questionnaire form for submission.
-       */
-      /**
-       * Adds real-time validation for the name field.
-       */
-      document
-        .getElementById("name")
-        .addEventListener("input", function (event) {
-          const nameInput = event.target.value; // Get the current value of the name field
-          const nameRegex = /^[A-Za-z\s]*$/; // Allow only alphabetic characters and spaces
-
-          // Check if the current input is invalid
-          if (!nameRegex.test(nameInput)) {
-            // Remove the last invalid character
-            event.target.value = nameInput.slice(0, -1);
-            alert("Name must only contain alphabetic characters and spaces.");
-          }
-        });
-
-      /**
-       * Adds an event listener to the questionnaire form for submission.
-       */
-      document
-        .getElementById("questionnaireForm")
-        .addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent the default form submission behavior
-
-          // Get form values
-          const name = document.getElementById("name").value.trim(); // Get and trim the full name
-          const email = document.getElementById("email").value.trim(); // Get and trim the email address
-          const rating = document.getElementById("rating").value; // Get the selected rating value
-          const recommend = document.querySelector(
-            'input[name="recommend"]:checked'
-          ); // Get the selected radio button value for "recommend"
-          const services = Array.from(
-            document.querySelectorAll('input[name="services"]:checked')
-          ).map((cb) => cb.value); // Get all selected checkbox values as an array
-
-          // Validate name: Ensure it is not empty
-          if (name.length === 0) {
-            alert("Name cannot be empty.");
-            return;
-          }
-
-          // Validate email: Ensure it's not empty
-          if (!email) {
-            alert("Please enter your email.");
-            return;
-          }
-
-          // Validate rating: Ensure a rating is selected
-          if (!rating) {
-            alert("Please select a rating.");
-            return;
-          }
-
-          // Validate recommendation: Ensure a recommendation is selected
-          if (!recommend) {
-            alert("Please let us know if you'd recommend us.");
-            return;
-          }
-
-          // Display a confirmation message
-          alert(
-            `Thank you for your feedback, ${name}! Your responses have been recorded.`
-          );
-
-          // Reset the form after submission
-          document.getElementById("questionnaireForm").reset();
-        });
-    </script>
-
   </body>
 </html>
